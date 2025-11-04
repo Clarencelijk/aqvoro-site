@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Global Procurement</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="back-link">← Back</a>
+        <h1 class="logo">Global Procurement</h1>
+    </header>
+    <section class="contact-hero">
+        <h2>Get In Touch</h2>
+        <p>Have questions about our procurement services? We'd love to hear from you. Contact our team today to discuss your sourcing needs.</p>
+    </section>
+    <section class="contact-info">
+        <div class="info-card">
+            <h3>Email</h3>
+            <p>Send us an email and we'll respond within 24 hours.</p>
+            <p><a href="mailto:aqvoro_clarence@hotmail.com">aqvoro_clarence@hotmail.com</a></p>
+        </div>
+        <div class="info-card">
+            <h3>Phone</h3>
+            <p>Call us for immediate assistance and consultations.</p>
+            <p>+1 (800) PROCUREMENT</p>
+        </div>
+        <div class="info-card">
+            <h3>Address</h3>
+            <p>Global Procurement Agency</p>
+            <p>International Business Center</p>
+            <p>Worldwide Operations</p>
+        </div>
+    </section>
+    <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <!-- 使用 FormSubmit 实现表单提交 -->
+        <form action="https://formsubmit.co/aqvoro_clarence@hotmail.com" method="POST">
+            <!-- 添加隐藏字段以增强功能 -->
+            <input type="hidden" name="_subject" value="New Contact Form Submission">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="fullname" required>
+            
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company">
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="subject">Subject *</label>
+            <select id="subject" name="subject" required>
+                <option value="">Select a subject</option>
+                <option value="general">General Inquiry</option>
+                <option value="services">Services</option>
+                <option value="support">Support</option>
+            </select>
+            
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <p class="form-note">* Required fields. We respect your privacy and will only use your information to respond to your inquiry.</p>
+    </section>
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>How long does the sourcing process typically take?</h3>
+            <p>The timeline varies depending on product complexity and requirements. Typically, from initial inquiry to sample approval takes 3-4 weeks. Mass production then follows based on order quantity and factory capacity.</p>
+        </div>
+        <div class="faq-item">
+            <h3>What are your commission rates?</h3>
+            <p>Commission structures are customized based on order volume, product type, and service scope. We offer competitive rates for both one-time purchases and long-term partnerships. Contact us for a detailed quote.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Do you handle all export documentation?</h3>
+            <p>Yes, we manage all aspects of export logistics including customs documentation, shipping coordination, and delivery arrangements. We can arrange FOB Shenzhen or door-to-door delivery options.</p>
+        </div>
+        <div class="faq-item">
+            <h3>What if I'm not satisfied with the first order?</h3>
+            <p>We stand behind our quality standards. If you're not satisfied, we'll work with you to address issues and offer favorable terms for subsequent orders to ensure your complete satisfaction.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Can you help with long-term supplier relationships?</h3>
+            <p>Absolutely. We specialize in establishing and managing long-term partnerships with verified suppliers. We handle ongoing communication, quality monitoring, and continuous improvement initiatives.</p>
+        </div>
+        <div class="faq-item">
+            <h3>What industries do you serve?</h3>
+            <p>We work across diverse industries including electronics, textiles, machinery, consumer goods, and more. Our expertise spans multiple sectors, allowing us to source products from various manufacturers.</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Want to learn more about our services? <a href="index.html" class="btn btn-secondary">Return to Home</a></p>
+        <p>&copy; 2025 Global Procurement. All rights reserved.</p>
+    </footer>
+</body>
+</html>

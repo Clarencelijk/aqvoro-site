@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /index
+Allow: /contact
+Disallow: /404
+
+Sitemap: https://www.aqvoro.com/sitemap.xml
+# Crawl delay for all bots
+Crawl-delay: 1
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
